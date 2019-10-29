@@ -1,0 +1,25 @@
+{
+  "name": "appupdate",
+  "version": "1.0.0",
+  "description": "app update electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/optimistanoop/appupdate.git"
+  },
+  "author": "optimistanoop",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.0.0",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.1.2"
+  }
+}

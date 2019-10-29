@@ -1,0 +1,4 @@
+dist/
+.git/
+electron-builder.yml
+node_modules/
